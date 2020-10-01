@@ -11,6 +11,8 @@ english_bot = ChatBot("Chatterbot", storage_adapter='chatterbot.storage.SQLStora
 # trainer = ChatterBotCorpusTrainer(english_bot)
 # trainer.train("./greetings.yml")
 
+
+
 @app.route("/chatterbot")
 def get_bot_response():
     print(request)
